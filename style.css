@@ -15,7 +15,7 @@ body {
     z-index: 100;
     background-color: blanchedalmond;
     animation-name: fadeIn;
-    animation-duration: 7s;
+    animation-duration: 2;
 }
 
 a {
@@ -27,6 +27,23 @@ a:hover {
     color: black;
     font-size: 1.05rem;
 }
+
+.accordion>.card .card-header {
+    margin-bottom: 0;
+}
+
+.card, .card-header {
+    border-color: black;
+}
+
+.card-header {
+    background-color: lightsteelblue;
+}
+
+.btn-link {
+    color: black;
+}
+
 
 @keyframes fadeIn {
     from {opacity: 0.0;}
