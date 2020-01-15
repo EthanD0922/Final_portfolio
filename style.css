@@ -11,7 +11,7 @@ body {
     left: 30%;
     top: 10%;
 }
-.nav {
+.nav,.aboutMe {
     z-index: 100;
     background-color: blanchedalmond;
     animation-name: fadeIn;
